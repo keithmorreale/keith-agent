@@ -1,0 +1,26 @@
+# Credentials
+.env
+.env.*
+*.key
+*.pem
+*.pfx
+*secret*
+*credential*
+*token*
+
+# Runtime data
+logs/
+backups/
+quarantine/
+*.zip
+*.7z
+*.bak
+*.log
+
+# Python
+__pycache__/
+*.pyc
+
+# Local configuration
+.vscode/
+.idea/

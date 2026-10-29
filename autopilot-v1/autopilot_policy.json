@@ -1,0 +1,64 @@
+{
+  "mode": "SAFE_AUTOPILOT",
+  "min_hash_size_mb": 10,
+  "quarantine_root_name": "_KEITH_AGENT_QUARANTINE",
+  "quarantine_enabled": true,
+  "permanent_delete_enabled": false,
+  "scan_fixed_drives_only": true,
+  "exclude_drive_letters": [],
+  "exclude_directory_names": [
+    "$RECYCLE.BIN",
+    "System Volume Information",
+    "Recovery",
+    "EFI",
+    "Windows",
+    "Program Files",
+    "Program Files (x86)",
+    "ProgramData",
+    "PerfLogs",
+    "$WinREAgent",
+    "MSOCache",
+    "Config.Msi"
+  ],
+  "exclude_file_names": [
+    "pagefile.sys",
+    "hiberfil.sys",
+    "swapfile.sys",
+    "DumpStack.log.tmp"
+  ],
+  "protected_markers": [
+    ".git",
+    ".hg",
+    ".svn",
+    ".uproject",
+    "steamapps",
+    "renpy",
+    "ComfyUI",
+    ".venv",
+    "venv",
+    "node_modules",
+    "VaM_Data"
+  ],
+  "canonical_priority": [
+    "02_PROJECTS",
+    "04_BUSINESS",
+    "05_LEGAL",
+    "06_FINANCE",
+    "07_FAMILY",
+    "08_EDUCATION",
+    "09_SOFTWARE",
+    "10_ARCHIVES",
+    "12_MEDIA",
+    "03_ASSETS",
+    "11_SYSTEM",
+    "00_INBOX"
+  ],
+  "low_priority_tokens": [
+    "Recovered",
+    "Imported_Documents",
+    "Legacy_Documents_",
+    "Text Documents Review",
+    "Misc\\Misc",
+    "Documents\\Documents"
+  ]
+}
